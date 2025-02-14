@@ -7,7 +7,7 @@ require (
 	github.com/lmittmann/w3 v0.17.6
 )
 
-replace github.com/lmittmann/go-solc => ../
+replace github.com/mpetrunic/go-solc => ../
 
 require (
 	github.com/Microsoft/go-winio v0.6.2 // indirect
