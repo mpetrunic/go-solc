@@ -13,8 +13,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/lmittmann/go-solc/internal/console"
-	"github.com/lmittmann/go-solc/internal/mod"
+	"github.com/mpetrunic/go-solc/internal/console"
+	"github.com/mpetrunic/go-solc/internal/mod"
 	"golang.org/x/sync/singleflight"
 )
 
@@ -199,7 +199,7 @@ func (c *Compiler) run(baseDir string, in *input) (*output, error) {
 
 	for _, remap := range in.Settings.Remappings {
 		parts := strings.Split(remap, "=")
-		if(len(parts) != 2) {
+		if len(parts) != 2 {
 			//invalid remapping
 			continue
 		}

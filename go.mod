@@ -1,10 +1,11 @@
-module github.com/lmittmann/go-solc
+module github.com/mpetrunic/go-solc
 
 go 1.22
 
 require (
 	github.com/ethereum/go-ethereum v1.14.13
 	github.com/google/go-cmp v0.6.0
+	github.com/lmittmann/go-solc v0.3.2
 	golang.org/x/sync v0.11.0
 )
 
